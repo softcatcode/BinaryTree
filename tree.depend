@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1687583181 source:/home/Daniil/bmstu/tree/main.cpp
+	<iostream>
+	"unittests.h"
+	"tree.hpp"
+
+1685620245 source:/home/Daniil/bmstu/tree/exception.cpp
+	"exception.h"
+	<cstring>
+	<string>
+
+1685620219 /home/Daniil/bmstu/tree/exception.h
+	<exception>
+	<stdio.h>
+
+1685005825 source:/home/Daniil/bmstu/tree/illegalfuncuseexception.cpp
+	"illegalfuncuseexception.h"
+
+1685604642 /home/Daniil/bmstu/tree/illegalfuncuseexception.h
+	"exception.h"
+
+1685005792 /home/Daniil/bmstu/tree/unittests.h
+
+1685005833 source:/home/Daniil/bmstu/tree/indexoutofrangeexception.cpp
+	"indexoutofrangeexception.h"
+
+1685604647 /home/Daniil/bmstu/tree/indexoutofrangeexception.h
+	"exception.h"
+
+1685005925 source:/home/Daniil/bmstu/tree/nulliteratorexception.cpp
+	"nulliteratorexception.h"
+
+1685604654 /home/Daniil/bmstu/tree/nulliteratorexception.h
+	"exception.h"
+
+1685118147 source:/home/Daniil/bmstu/tree/basetree.cpp
+	"basetree.h"
+
+1685603433 /home/Daniil/bmstu/tree/basetree.h
+	"basetreeiterator.h"
+
+1685124694 /home/Daniil/bmstu/tree/treeiterator.h
+	<memory>
+	<stack>
+	"bidirectionaltreeiterator.hpp"
+	"node.h"
+
+1685617779 /home/Daniil/bmstu/tree/bidirectionaltreeiterator.h
+	"forwardtreeiterator.hpp"
+
+1685113322 /home/Daniil/bmstu/tree/outputtreeiterator.h
+	"basetreeiterator.h"
+
+1685008834 /home/Daniil/bmstu/tree/basetreeiterator.h
+	<memory>
+	<stack>
+	"node.h"
+	"comparable.h"
+
+1687584484 /home/Daniil/bmstu/tree/node.h
+	<memory>
+	"comparable.h"
+
+1685007382 /home/Daniil/bmstu/tree/comparable.h
+	<concepts>
+
+1685006123 source:/home/Daniil/bmstu/tree/node.cpp
+	"node.h"
+	"comparable.h"
+
+1685112552 source:/home/Daniil/bmstu/tree/bidirectionaltreeiterator.cpp
+	"bidirectionaltreeiterator.h"
+	"nulliteratorexception.h"
+	"tree.h"
+
+1685629679 /home/Daniil/bmstu/tree/tree.h
+	"node.h"
+	"comparable.h"
+	"container.h"
+	"basetree.h"
+	"treeiterator.hpp"
+	<vector>
+	<algorithm>
+
+1685113297 source:/home/Daniil/bmstu/tree/treeiterator.cpp
+	"treeiterator.h"
+	"tree.h"
+	"nulliteratorexception.h"
+	"indexoutofrangeexception.h"
+
+1685113348 source:/home/Daniil/bmstu/tree/outputtreeiterator.cpp
+	"illegalfuncuseexception.h"
+	"nulliteratorexception.h"
+	"outputtreeiterator.h"
+	"tree.h"
+
+1685629390 source:/home/Daniil/bmstu/tree/unittests.cpp
+	"tree.hpp"
+	<iostream>
+	<vector>
+	<algorithm>
+
+1685123143 source:/home/Daniil/bmstu/tree/tree.cpp
+	"illegalfuncuseexception.h"
+	"nulliteratorexception.h"
+	"nullpointerexception.h"
+	"tree.h"
+	<algorithm>
+	<concepts>
+
+1685604661 /home/Daniil/bmstu/tree/nullpointerexception.h
+	"exception.h"
+
+1685122340 /home/Daniil/bmstu/tree/container.h
+	<concepts>
+	"comparable.h"
+
+1687584423 /home/Daniil/bmstu/tree/tree.hpp
+	"illegalfuncuseexception.h"
+	"nulliteratorexception.h"
+	"nullpointerexception.h"
+	"tree.h"
+	<algorithm>
+	<concepts>
+	<iostream>
+	<fstream>
+
+1685124991 /home/Daniil/bmstu/tree/node.hpp
+	"node.h"
+	"comparable.h"
+
+1685629114 /home/Daniil/bmstu/tree/treeiterator.hpp
+	"treeiterator.h"
+	"tree.h"
+	"nulliteratorexception.h"
+	"indexoutofrangeexception.h"
+
+1685620851 /home/Daniil/bmstu/tree/bidirectionaltreeiterator.hpp
+	"bidirectionaltreeiterator.h"
+	"nulliteratorexception.h"
+	"tree.h"
+
+1685534031 /home/Daniil/bmstu/tree/outputtreeiterator.hpp
+	"illegalfuncuseexception.h"
+	"nulliteratorexception.h"
+	"outputtreeiterator.h"
+	"tree.h"
+
+1685620760 /home/Daniil/bmstu/tree/forwardtreeiterator.hpp
+	"illegalfuncuseexception.h"
+	"nulliteratorexception.h"
+	"forwardtreeiterator.h"
+	"tree.h"
+
+1685630029 /home/Daniil/bmstu/tree/forwardtreeiterator.h
+	"basetreeiterator.h"
+
