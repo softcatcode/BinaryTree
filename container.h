@@ -21,10 +21,7 @@ concept Container = requires()
     typename Cont::iterator;
     typename Cont::const_iterator;
     Comparable<typename Cont::value_type>;
-    //Convertible<typename Cont::value_type, T> && Assignable<typename Cont::value_type, T>;
 };
-
-//requires requires(typename Cont::value_type type) {{type} -> convertible_to<T>;}
 
 template <typename Cont, typename T>
 concept TreeConvertibleContainer =
