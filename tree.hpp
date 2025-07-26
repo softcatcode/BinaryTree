@@ -468,7 +468,7 @@ template <Comparable T>
 ostream& operator << (ostream& out, const Tree<T>& tree)
 {
     for (T elem: tree)
-        cout << elem << ' ';
-    cout << endl;
+        out << elem << ' ';
+    out << endl;
     return out;
 }
